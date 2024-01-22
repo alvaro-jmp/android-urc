@@ -1,0 +1,101 @@
+<resources>
+
+    <string name="app_name">dROIDkey08</string>
+    <string name="stTitulo">dROIDkey</string>
+    <string name="stStatus">Status: N/A</string>
+
+
+    <!-- Botones DroidKeyMain -->
+    <string name="stAprndzj">Aprender</string>
+    <string name="contDescImgBtnDroidKey">Imagen de un microfono, para utilizar comando de voz</string>
+    
+    <!-- Menu DroidKeyMain -->
+    <string name="menuReConnDroidKey">Re-Conectar</string>    
+    <string name="menuCmbClvDroidKey">Cambiar Clave</string>
+        
+    <!-- Status Activity -->
+    <string name="on_create">onCreate.</string>     
+    <string name="on_restart">onRestart.</string>             
+    <string name="on_start">onStart.</string>
+    <string name="on_resume">onResume.</string>
+    <string name="on_pause">onPause.</string>
+	<string name="on_stop">onStop.</string>
+	<string name="on_destroy">onDestroy.</string>
+	<string name="stActv1">Activity1</string>
+	<string name="stActv2">Activity2</string>
+
+	<string name="stAprndzj_fase00">Modo aprendizaje</string>
+	<string name="stTittleDlgAprnd">Aprendiendo</string>
+	<string name="stAccionBthConn">bthConn</string>
+
+	<string name="stTittleDlgAprndRlzdo">Clave copiada</string>	
+	<string name="stTvInfoDlgAprndRlzdo">Se aprendió con éxito el Control Remoto.\nAsignele un nombre por favor.</string>
+	<string name="stBtnAceptDlgAprndRlzdo">Aceptar</string>
+	<string name="stBtnCancelDlgAprndRlzdo">Cancelar</string>
+	
+	<string name="stTittleDlgAprndErr">Error</string>
+	<string name="stTvInfoDlgAprndErr">Se produjo un error al aprender el control. Posiblemente pueda ser un control Rolling Code, le \
+	    recomiendo que intente de nuevo</string>
+<!-- 	<string name="stBtnOkDlgAprndErr">Ok</string>  --> <!-- usar @android:string/ok -->
+	<string name="stTvInfo00DlgRegCntrsna">Por favor, escriba una contraseña no mayor a 10 caracteres. Se usara como mecanismo de proteción.</string>
+	<string name="stTvInfo01DlgRegCntrsna">Repetir la contraseña:</string>
+	<string name="stBnAceptDlgRegCntrsna">Aceptar</string>
+	<string name="stBtnCanceltDlgRegCntrsna">Cancelar</string>
+	<string name="stTitleDlgRegCntrsna">Registro</string>
+	
+	<!-- Dlg registro contraseña -->
+	<string name="errTextCntrsnaNoIgual">Por favor vuelva a intentar otra vez, asegurese de escribir las contraseñas y que sean iguales</string>
+	<string name="errTituloCntrsnaNoIgual">Contraseña diferentes</string>
+	<string name="errTextLongCntrsna">La longitud de la contraseña es menor a 10 caracteres, vuelva a intentar de nuevo</string>
+	<string name="errTituloLongCntrsna">Longitud de caracteres</string>
+	<string name="contSpcTxtCntrsna">La contraseña contiene caracteres de espacio, no debe tener este caracter, por favor, vuelve a intentar de nuevo</string>
+	<string name="contSpcTituloCntrsna">Contiene espacio</string>
+	<string name="cntrsnaGuardtText">La contraseña fue guardada, se le pedira debes en cuando como mecanismo de seguridad </string>
+	<string name="cntrsnaGuardtTitulo">Registro finalizdo</string>
+	
+	<!-- Log -->
+	<string name="ajdroid">ajDroid</string>
+	
+	<!-- Opciones ListView reproducir control -->
+	<string-array name="opcnsLvRpCtrl">
+	    <item>Cambiar nombre</item>
+	    <item>Eliminar</item>
+	</string-array>
+	
+	<!-- Dlg Cambiar nombre ctrl -->
+	<string name="tvInfoDlgCmbrNmbrCtrl">Escriba el nuevo nombre y presiones el botón aceptar, si no desea cambiarlo presione cancelar</string>
+	<string name="btnAceptDlgCmbrNmbrCtrl">Aceptar</string>
+	<string name="btnCancelDlgCmbrNmbrCtrl">Cancelar</string>
+	
+	<!-- Activity Broadcast Receiver  -->
+	<string name="bthNullActv">bthNullActv</string>
+	<string name="bthApagActv">bthApagActv</string>
+	<string name="bthNoDtcActv">bthNoDtcActv</string>
+	<string name="bthConectandoActv">bthConectandoActv</string>
+	<string name="bthConnActv">bthConnActv</string>
+	<string name="bthDescon1Actv">bthDescon1Actv</string>
+	<string name="byteRcvActv">byteRcvActv</string>
+	<string name="enListViewCtrls">enListViewCtrls</string>
+	<string name="salirActvDroidKey">salirActvDroidKey</string>
+	<string name="errCmbClvDroidKey">errCmbClvDroidKey</string>
+	<string name="corrCmbClvDroidKey">errCmbClvDroidKey</string>
+	
+	<!-- Service Broadcast Receiver  -->
+	<string name="connBthServc">connBthServc</string>
+	<string name="desconBthServc">desconBthServc</string>
+	<string name="soporteBthServc">soporteBthServc</string>
+	<string name="escrbBthServc">escrbBthServc</string>
+	<string name="statusConServc">statusConServc</string>
+	<string name="iniAprndzj">iniAprndzj</string>
+	<string name="cmbCntrsnaBthServc">cmbCntrsnaBthServc</string>
+	
+	<!-- Widget Comando Voz -->
+	<string name="selcndWidgetCmdVoz">selcndWidgetCmdVoz</string>
+	<string name="lblWgtCmdVoz">Voz</string>
+	
+	<!-- Dlg Cambiar clv bth -->
+	<string name="tvDlgCmbClvDroidKey">Escriba la nueva clave para el dROIDkey. Se desconectara del dROIDkey para poder cambiar la clave</string>
+	<string name="btnAceptDlgCmbClvDroidKey">Aceptar</string>
+	<string name="btnCancelDlgCmbClvDroidKey">Cancelar</string>
+	
+</resources>

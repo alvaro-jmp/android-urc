@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"	
+	android:initialLayout="@layout/wgt_cmd_voz"
+	android:minWidth="72dip"
+	android:minHeight="72dip"
+	android:label="@string/lblWgtCmdVoz"
+	android:updatePeriodMillis="0"
+/>

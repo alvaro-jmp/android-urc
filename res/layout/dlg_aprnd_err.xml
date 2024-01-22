@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200sp"
+	android:layout_gravity="center_vertical"
+    android:orientation="vertical" >
+    
+    <TextView android:id="@+id/tvInfoDlgAprndErr"
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:text="@string/stTvInfoDlgAprndErr"
+        android:layout_gravity="center_horizontal"
+        android:textSize="15sp"
+        />
+    
+    <Button android:id="@+id/btnOkDlgAprndErr"
+        android:layout_width="160sp"
+        android:layout_height="60sp"
+        android:text="@android:string/ok"
+        android:layout_marginTop="10sp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"
+        />    
+
+</LinearLayout>

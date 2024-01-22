@@ -1,0 +1,59 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="aj.apps.droidkey"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <!-- Version del sdk -->
+    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="19" />
+    
+    <!-- Permisos -->
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+    <!-- Aplicación -->
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar">
+        
+        <!-- Actividad Principal -->
+        <activity android:name="aj.apps.droidkey.ActvDroidKey" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>                    
+        </activity>
+        
+        <!-- Actividad para el Widget comando de voz -->
+        <activity android:name="aj.apps.droidkey.ActvCmdVoz" android:theme="@style/Theme.Transparent" android:screenOrientation="portrait" 
+            />
+        
+        <!-- Widget comando de Voz -->
+        <receiver android:name="aj.apps.droidkey.WgtCmdVozProvider" android:label="dROIDkey Comando de Voz">
+            <intent-filter >
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="android.appwidget.action.APPWIDGET_ENABLED" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/cfg_wgt_cmd_voz" />
+        </receiver>
+        
+        <!-- Iniciador de servicio desde el booteo -->
+        <receiver android:name="aj.apps.droidkey.StartServcOnBoot">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        
+        <!-- Servicio -->
+        <service android:name="aj.apps.droidkey.ServcBth">
+            <intent-filter>
+                <action android:name="ServcBth"/>
+            </intent-filter>
+        </service>
+        
+    </application>
+
+</manifest>

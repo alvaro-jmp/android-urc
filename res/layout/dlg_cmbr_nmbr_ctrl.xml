@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300sp"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical" >
+    
+	<TextView android:id="@+id/tvInfoDlgCmbrNmbrCtrl"
+		android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10sp" android:paddingRight="10sp"
+        android:text="@string/tvInfoDlgCmbrNmbrCtrl"
+        android:textSize="15sp"        
+    />
+
+   <EditText android:id="@+id/etDlgCmbrNmbrCtrl"
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:maxLength="10"
+        android:textSize="15sp"
+        android:layout_marginTop="10sp"
+        android:paddingTop="5sp"
+        android:inputType="text"
+   />    
+   
+   <LinearLayout android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:paddingTop="15sp"
+       >
+		<Button android:id="@+id/btnAceptDlgCmbrNmbrCtrl"
+		    android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1.0"
+	            android:paddingBottom="10sp"
+	            android:paddingTop="10sp"
+				android:text="@string/btnAceptDlgCmbrNmbrCtrl"
+	            android:textSize="15sp"
+		       />
+	   <Button android:id="@+id/btnCancelDlgCmbrNmbrCtrl"
+	       android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1.0"
+	            android:paddingBottom="10sp"
+	            android:paddingTop="10sp"
+	            android:text="@string/btnCancelDlgCmbrNmbrCtrl"
+	            android:textSize="15sp"
+	       />       
+   </LinearLayout>
+   
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+bin/
+apk/
+gen/
+key
+libs/
+.classpath
+.project

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="240dip"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvDlgCmbClvDroidKey"
+        android:textSize="15sp"
+        android:padding="10sp"
+        />
+    
+    <EditText android:id="@+id/etDlgCmbClvDroidKey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:digits="abcdefghijklmnopqrstuvwxyz1234567890 "
+        android:maxLength="8"
+        android:padding="10sp"        
+        />
+    
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+	    <Button android:id="@+id/btnAceptDlgCmbClvDroidKey"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/btnAceptDlgCmbClvDroidKey"
+	        android:padding="10sp"
+	        android:layout_weight="1.0"
+	        />
+	    <Button android:id="@+id/btnCancelDlgCmbClvDroidKey"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/btnCancelDlgCmbClvDroidKey"
+	        android:padding="10sp"
+	        android:layout_weight="1.0"
+	        />     
+    </LinearLayout>    
+
+</LinearLayout>
