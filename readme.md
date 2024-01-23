@@ -1,4 +1,4 @@
-# java-android-cru-garage-door-not-encrypted 
+# java-android-urc-garage-door-not-encrypted 
 
 This program supplies the user interface to the [project](https://drive.google.com/file/d/1IFt62EF3NbSOA1Vvz_oraNpHULJRAejd/view?usp=sharing) that I carried out between 2012 - 2014 on a universal wireless remote control that learns the encoding of the digital signal of the remote controls that are used for garages or parking gates, but that do not have any type of encryption.
 
